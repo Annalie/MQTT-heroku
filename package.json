@@ -1,21 +1,28 @@
 {
-  "name": "mqtt-heroku",
+  "name": "mows",
   "version": "1.0.0",
-  "description": "MQTT client served by Node with Express",
+  "description": "MQTT over Websocket Web App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
+  "author": "Jun Rey Ansing",
+  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Annalie/MQTT-heroku.git"
+    "url": "git+https://github.com/junreycloudstrife/mows.git"
   },
-  "author": "Annalie Gabatan",
-  "license": "ISC",
+  "keywords": [
+    "mows",
+    "mqtt",
+    "websocket"
+  ],
   "bugs": {
-    "url": "https://github.com/Annalie/MQTT-heroku/issues"
+    "url": "https://github.com/junreycloudstrife/mows/issues"
   },
-  "homepage": "https://github.com/Annalie/MQTT-heroku#readme"
+  "homepage": "https://github.com/junreycloudstrife/mows#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
-
-
